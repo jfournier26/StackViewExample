@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9DF208201A949200CFF881 /* Bork Me Up (Before You Dog-Go).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF205201A949200CFF881 /* Bork Me Up (Before You Dog-Go).mp3 */; };
+		CE9DF209201A949200CFF881 /* Imperial Borks [Star Wars].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF206201A949200CFF881 /* Imperial Borks [Star Wars].mp3 */; };
+		CE9DF20A201A949200CFF881 /* Jurassic Bork.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE9DF207201A949200CFF881 /* Jurassic Bork.mp4 */; };
+		CE9DF20D201A9C2C00CFF881 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9DF20C201A9C2C00CFF881 /* AudioToolbox.framework */; };
 		CEB49405201802C80050BCFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB49404201802C80050BCFA /* AppDelegate.m */; };
 		CEB49408201802C80050BCFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB49407201802C80050BCFA /* ViewController.m */; };
 		CEB4940B201802C80050BCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB49409201802C80050BCFA /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE9DF205201A949200CFF881 /* Bork Me Up (Before You Dog-Go).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bork Me Up (Before You Dog-Go).mp3"; sourceTree = "<group>"; };
+		CE9DF206201A949200CFF881 /* Imperial Borks [Star Wars].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imperial Borks [Star Wars].mp3"; sourceTree = "<group>"; };
+		CE9DF207201A949200CFF881 /* Jurassic Bork.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jurassic Bork.mp4"; sourceTree = "<group>"; };
+		CE9DF20C201A9C2C00CFF881 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CEB49400201802C80050BCFA /* Stack Views Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack Views Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB49403201802C80050BCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB49404201802C80050BCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9DF20D201A9C2C00CFF881 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE9DF20B201A9C2C00CFF881 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DF20C201A9C2C00CFF881 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEB493F7201802C80050BCFA = {
 			isa = PBXGroup;
 			children = (
 				CEB49402201802C80050BCFA /* Stack Views Example */,
 				CEB49401201802C80050BCFA /* Products */,
+				CE9DF20B201A9C2C00CFF881 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +85,9 @@
 				CEB4940E201802C80050BCFA /* LaunchScreen.storyboard */,
 				CEB49411201802C80050BCFA /* Info.plist */,
 				CEB49412201802C80050BCFA /* main.m */,
+				CE9DF205201A949200CFF881 /* Bork Me Up (Before You Dog-Go).mp3 */,
+				CE9DF206201A949200CFF881 /* Imperial Borks [Star Wars].mp3 */,
+				CE9DF207201A949200CFF881 /* Jurassic Bork.mp4 */,
 			);
 			path = "Stack Views Example";
 			sourceTree = "<group>";
@@ -131,7 +152,10 @@
 			files = (
 				CEB49410201802C80050BCFA /* LaunchScreen.storyboard in Resources */,
 				CEB4940D201802C80050BCFA /* Assets.xcassets in Resources */,
+				CE9DF20A201A949200CFF881 /* Jurassic Bork.mp4 in Resources */,
 				CEB4940B201802C80050BCFA /* Main.storyboard in Resources */,
+				CE9DF209201A949200CFF881 /* Imperial Borks [Star Wars].mp3 in Resources */,
+				CE9DF208201A949200CFF881 /* Bork Me Up (Before You Dog-Go).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +301,6 @@
 		CEB49417201802C80050BCFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 485V5W4XG8;
 				INFOPLIST_FILE = "Stack Views Example/Info.plist";
@@ -291,7 +314,6 @@
 		CEB49418201802C80050BCFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 485V5W4XG8;
 				INFOPLIST_FILE = "Stack Views Example/Info.plist";
